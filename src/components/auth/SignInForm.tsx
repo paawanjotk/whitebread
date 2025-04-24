@@ -80,6 +80,7 @@ export function SignInForm() {
               type="email"
               id="email"
               placeholder="Enter your email"
+              className='text-black'
             />
             {errors.email && (
               <p className="text-sm text-destructive">{errors.email.message}</p>
@@ -92,6 +93,7 @@ export function SignInForm() {
               type="password"
               id="password"
               placeholder="Enter your password"
+              className='text-black'
             />
             {errors.password && (
               <p className="text-sm text-destructive">{errors.password.message}</p>

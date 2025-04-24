@@ -84,6 +84,7 @@ export function SignUpForm() {
               type="email"
               id="email"
               placeholder="Enter your email"
+              className="text-black"
             />
             {errors.email && (
               <p className="text-sm text-destructive">{errors.email.message}</p>
@@ -96,6 +97,7 @@ export function SignUpForm() {
               type="password"
               id="password"
               placeholder="Enter your password"
+              className="text-black"
             />
             {errors.password && (
               <p className="text-sm text-destructive">{errors.password.message}</p>
@@ -108,6 +110,7 @@ export function SignUpForm() {
               type="password"
               id="confirmPassword"
               placeholder="Confirm your password"
+              className="text-black"
             />
             {errors.confirmPassword && (
               <p className="text-sm text-destructive">{errors.confirmPassword.message}</p>
