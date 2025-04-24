@@ -21,7 +21,10 @@ export async function POST(request: Request) {
         messages: [
           {
             role: 'user',
-            content: `Please summarize the following text:\n\n${content}`,
+            content: `You're a world-renowned storyteller who just read a long, intricate scroll. 
+                      Your mission is to retell the story to a curious child who's only got a minute to listen before bedtime. 
+                      Summarize the main ideas clearly, beautifully, and concisely, keeping the magic alive while removing all the fluff. 
+                      Keep it engaging, simple, and impactful. text:\n\n${content}`,
           },
         ],
       }),
