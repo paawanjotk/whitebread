@@ -49,11 +49,11 @@ This guide will help you set up your Supabase project for the AI Notes App.
 
 ## 5. Set Up DeepSeek API
 
-1. Go to [DeepSeek AI](https://deepseek.ai) and create an account
+1. Go to [DeepSeek AI](https://openrouter.ai/settings/keys) and create an account
 2. Get your API key from the dashboard
 3. Add it to your `.env.local` file:
    ```
-   DEEPSEEK_API_KEY=your_api_key
+   OPENROUTER_API_KEY=your_api_key
    ```
 
 ## 6. Test Your Setup
