@@ -1,4 +1,7 @@
-# AI Notes App
+# White Bread 
+
+
+v0 (new features coming):
 
 A modern notes application with AI-powered summarization, built with Next.js, TailwindCSS, and Supabase.
 

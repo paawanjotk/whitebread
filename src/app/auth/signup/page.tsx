@@ -8,6 +8,9 @@ export default function SignUpPage() {
         <h1 className="text-center text-4xl font-bold tracking-tight text-white-bread">
           White Bread
         </h1>
+        <h2 className="mt-6 text-center text-3xl font-bold tracking-tight">
+          Your notes, bread way, summarized.
+        </h2>
       </div>
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
